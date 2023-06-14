@@ -16,7 +16,7 @@ git clone https://github.com/opszero/prompt && cd prompt && ./build.sh
 # Example
 
 ```
-cd example && ./example.sh
+cd examples && ./job-post-extract-company-name.sh
 ```
 
 # Pro Support
