@@ -3,6 +3,7 @@ if [ ! -d "llama.cpp" ]; then
 fi
 
 pushd llama.cpp
+git pull
 LLAMA_METAL=1 make
 popd
 
