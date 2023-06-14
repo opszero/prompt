@@ -1,10 +1,11 @@
 # Prompt
 
-Prompt provides LLMs that can run on Mac M1 Machines with 16GB Memory. The goal
-is to make LLMs accessible and usable to everyone without having to resort to
-using more expensive Cloud infrastructure and Nvidia chips. Furthermore, it
-uses open source models from Huggingface that are known to work well on Mac M1s
-to make it easy to get started.
+Prompt enables running open-source LLMs optimized for Mac M1 machines with 16GB of memory. 
+Its aim is to make LLMs accessible, eliminating the need for expensive 
+cloud infrastructure and Nvidia chips. Additionally, it leverages open-source models 
+from Huggingface that are proven to perform well on Mac M1s, ensuring a good experience
+on common developer hardware.
+
 
 - [Llama.cpp](https://github.com/ggerganov/llama.cpp)
 - [CRD716/ggml-vicuna-1.1-quantized](https://huggingface.co/CRD716/ggml-vicuna-1.1-quantized)
