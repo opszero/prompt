@@ -8,7 +8,8 @@ ensuring a good experience on common developer hardware.
 
 - [Llama.cpp](https://github.com/ggerganov/llama.cpp)
 - [CRD716/ggml-vicuna-1.1-quantized](https://huggingface.co/CRD716/ggml-vicuna-1.1-quantized) - Noncommercial
-- [TheBloke/MPT-7B-GGM](https://www.mosaicml.com/blog/mpt-7b) - Commercial
+- [TheBloke/MPT-7B-Instruct-GGM](https://huggingface.co/TheBloke/MPT-7B-Instruct-GGML) - Commercial
+- [RachidAR/falcon-7B-ggml](https://huggingface.co/RachidAR/falcon-7B-ggml) - Commerical
 
 # Usage
 
@@ -20,8 +21,22 @@ git clone https://github.com/opszero/prompt && cd prompt && ./build.sh
 
 # Example
 
+## Vicuna
+
 ```
-cd examples && ./job-post-extract-company-name.sh
+cd examples && ./job-post-extract-company-name-vicuna-7b.sh
+```
+
+## MPT5
+
+```
+cd examples && ./job-post-extract-company-name-mpt5-7b.sh
+```
+
+## Falcon
+
+```
+cd examples && ./job-post-extract-company-name-falcon-7b.sh
 ```
 
 # Support
