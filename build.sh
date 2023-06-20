@@ -7,6 +7,7 @@ fi
 
 pushd llama.cpp
 git pull
+make clean
 LLAMA_METAL=1 make
 popd
 
@@ -27,6 +28,10 @@ if [ ! -f "falcon-7B-Q4_1-ggml.bin" ]; then
   curl -L -O https://huggingface.co/RachidAR/falcon-7B-ggml/resolve/main/falcon-7B-Q4_1-ggml.bin
 fi
 
+if [ ! -f "wizardlm-7b-v1.0-uncensored.ggmlv3.q4_1.bin" ]; then
+  curl -L -O https://huggingface.co/TheBloke/WizardLM-7B-V1.0-Uncensored-GGML/resolve/main/wizardlm-7b-v1.0-uncensored.ggmlv3.q4_1.bin
+fi
+
 popd
 
 
@@ -37,6 +42,7 @@ pushd ggml
 mkdir -p build
 pushd build
 cmake ..
+make clean
 make -j4 gpt-2 gpt-j gpt-neox mnist mpt replit starcoder whisper
 popd
 popd
@@ -51,6 +57,7 @@ git pull
 mkdir -p build
 pushd build
 cmake ..
+make clean
 make -j4 falcon
 popd
 popd

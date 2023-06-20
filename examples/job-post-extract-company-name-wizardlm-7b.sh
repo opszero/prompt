@@ -1,7 +1,6 @@
-../ggml-falcon/build/bin/falcon -m ../llama.cpp/models/falcon-7B-Q4_1-ggml.bin --prompt "User:
+../llama.cpp/main -t 10 -ngl 1 -m  ../llama.cpp/models/wizardlm-7b-v1.0-uncensored.ggmlv3.q4_1.bin --color -c 1024 --prompt "You are a helpful AI assistant.
 
-Analyze the following text to see if it is a job advertisement.
-If it is please output "True" otherwise please output "Unknown".
+USER: Using the following job post can you respond with just the company name?
 
 Pricing
 Blog
@@ -96,4 +95,4 @@ Contact Us
 FAQs
 Privacy & Terms
 
-Assistant:"
+ASSISTANT:"
