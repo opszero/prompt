@@ -8,6 +8,7 @@ ensuring a good experience on common developer hardware.
 
 - [Llama.cpp](https://github.com/ggerganov/llama.cpp)
 - [CRD716/ggml-vicuna-1.1-quantized](https://huggingface.co/CRD716/ggml-vicuna-1.1-quantized) - Noncommercial
+- [TheBloke/WizardLM-7B-V1.0-Uncensored-GGML](https://huggingface.co/TheBloke/WizardLM-7B-V1.0-Uncensored-GGML/resolve/main/wizardlm-7b-v1.0-uncensored.ggmlv3.q4_1.bin) - Noncommercial
 - [TheBloke/MPT-7B-Instruct-GGM](https://huggingface.co/TheBloke/MPT-7B-Instruct-GGML) - Commercial
 - [RachidAR/falcon-7B-ggml](https://huggingface.co/RachidAR/falcon-7B-ggml) - Commerical
 
@@ -20,6 +21,12 @@ git clone https://github.com/opszero/prompt && cd prompt && ./build.sh
 ```
 
 # Example
+
+## WizardLM
+
+```
+cd examples && ./job-post-extract-company-name-wizardlm-7b.sh
+```
 
 ## Vicuna
 
