@@ -19,7 +19,7 @@ Built on top of:
 git clone https://github.com/opszero/prompt && cd prompt && ./build.sh
 ```
 
-# Example
+# Models & Examples
 
 ## WizardLM
 
