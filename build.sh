@@ -36,6 +36,12 @@ if [ ! -f "wizardlm-13b-v1.0-uncensored.ggmlv3.q4_1.bin" ]; then
   curl -L -O https://huggingface.co/TheBloke/WizardLM-13B-V1.0-Uncensored-GGML/resolve/main/wizardlm-13b-v1.0-uncensored.ggmlv3.q4_1.bin
 fi
 
+if [ ! -f "llama-2-7b.ggmlv3.q4_1.bin" ]; then
+  curl -L -O https://huggingface.co/TheBloke/Llama-2-7B-GGML/resolve/main/llama-2-7b.ggmlv3.q4_1.bin
+fi
+
+
+
 popd
 
 
