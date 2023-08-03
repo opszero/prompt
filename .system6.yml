@@ -1,0 +1,114 @@
+sku: prompt
+name: Prompt
+short_description: LLMs on Mac M1s
+long_description: LLMs Optimized to run on Mac M1s
+search_keywords: LLM, ChatGPT, GPT
+
+hero_blurb: Prompt
+hero_cta_text: Go to Github Repo
+hero_cta_url: https://github.com/opszero/prompt
+hero_lead: LLMs Optimized to run on Mac M1s with Llama.cpp
+
+features1_enabled: true
+highlight1_icon: ''
+highlight1_description: Using Georgi Gerganov's <a href="https://github.com/ggerganov/llama.cpp">llama.cpp</a>
+  and <a href="https://github.com/ggerganov/ggml">ggml</a> to run models on Mac M1s
+  with 16GB of Ram.
+highlight1_title: Mac M1 Optimized
+highlight1_url: null
+
+highlight2_description: Most models using PyTorch or Tensorflow require Nvidia GPUs.
+  Prompt is setup to run on commodity machines without any magical configuration.
+highlight2_icon: ''
+highlight2_title: Commodity Optimized
+highlight2_url: null
+highlight3_description: We build on open source models including Falcon, MPT, and
+  Vicuna so you can use the appropriate models for commercial and non-commerical use
+  cases.
+highlight3_icon: ''
+highlight3_title: Open Source LLMs
+highlight3_url: null
+highlight4_description: ''
+highlight4_icon: ''
+highlight4_title: ''
+highlight4_url: null
+highlight5_description: ''
+highlight5_icon: ''
+highlight5_title: ''
+highlight5_url: null
+highlight6_description: ''
+highlight6_icon: ''
+highlight6_title: ''
+highlight6_url: null
+
+features2_blurb: ''
+features2_embed: ''
+features2_enabled: false
+features2_highlight1_description: ''
+features2_highlight1_icon: ''
+features2_highlight1_title: ''
+features2_highlight2_description: ''
+features2_highlight2_icon: ''
+features2_highlight2_title: ''
+features2_highlight3_description: ''
+features2_highlight3_icon: ''
+features2_highlight3_title: ''
+features2_highlight4_description: ''
+features2_highlight4_icon: ''
+features2_highlight4_title: ''
+features2_highlight5_description: ''
+features2_highlight5_icon: ''
+features2_highlight5_title: ''
+features2_highlight6_description: ''
+features2_highlight6_icon: ''
+features2_highlight6_title: ''
+features2_lead: ''
+
+
+features3_enabled: true
+features3_blurb: 'Use multiple models.'
+features3_highlight1_description: Vicuna built by Berkeley and Stanford. <a href="https://lmsys.org/blog/2023-03-30-vicuna">About
+  93% as good as ChatGPT.</a>
+features3_highlight1_title: Vicuna
+features3_highlight1_url: ''
+features3_highlight2_description: Built by Can Xu and Qingfeng Sun and Kai Zheng and
+  Xiubo Geng and Pu Zhao and Jiazhan Feng and Chongyang Tao and Daxin Jiang.
+features3_highlight2_title: WizardLM
+features3_highlight2_url: 'https://www.mosaicml.com/blog/mpt-7b'
+features3_highlight3_description: Built by MosaicML with a license for commercial use.
+features3_highlight3_title: MPT5
+features3_highlight3_url: 'https://falconllm.tii.ae'
+features3_highlight4_description: Built in Abu Dhabhi and commercially licensed.
+features3_highlight4_title: Falcon
+features3_highlight4_url: ''
+features3_highlight5_description: 'Built by Meta and licensed for commercial use.'
+features3_highlight5_title: 'Llama2'
+features3_highlight5_url: 'https://ai.meta.com/llama/'
+features3_highlight6_description: ''
+features3_highlight6_title: ''
+features3_highlight6_url: ''
+features3_lead: ''
+
+
+support_description: |
+  # FAQ
+  ## What is Prompt?
+  Prompt enables running\
+  open-source LLMs optimized for Mac M1 machines with 16GB of memory. Its aim is\
+  to make LLMs accessible, eliminating the need for expensive cloud infrastructure\
+  and Nvidia chips. Additionally, it leverages open-source models from Huggingface\
+  that are proven to perform well on Mac M1s, ensuring a good experience on common\
+  developer hardware.
+  ## How do I use Prompt?
+  Here is how to run an\
+  example quickly:
+  ```
+  git clone https://github.com/opszero/prompt &&\
+  cd prompt && ./build.sh
+  cd examples
+  ./job-post-extract-company-name-vicuna-7b.sh
+  ./job-post-extract-company-name-wizardlm-7b.sh
+  ./job-post-extract-company-name-mpt5-7b.sh
+  ./job-post-extract-company-name-falcon-7b.sh
+  ./job-post-extract-company-name-llama-2.sh
+  ```

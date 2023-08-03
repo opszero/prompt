@@ -56,6 +56,14 @@ cd examples && ./job-post-extract-company-name-mpt5-7b.sh
 cd examples && ./job-post-extract-company-name-falcon-7b.sh
 ```
 
+## Llama2
+
+- [TheBloke/Llama-2-7B-GGMLl](https://huggingface.co/TheBloke/Llama-2-7B-GGML) - Commerical
+
+```
+cd examples && ./job-post-extract-company-name-llama-2-7b.sh
+```
+
 # Support
 
 <a href="https://www.opszero.com"><img src="https://media.opszero.com/insights/brands/logo/2023/04/26/02/04/12/opsZero_logo.svg" width="300px"/></a>
