@@ -93,18 +93,21 @@ features3_lead: ''
 support_description: |
   # FAQ
   ## What is Prompt?
-  Prompt enables running\
-  open-source LLMs optimized for Mac M1 machines with 16GB of memory. Its aim is\
-  to make LLMs accessible, eliminating the need for expensive cloud infrastructure\
-  and Nvidia chips. Additionally, it leverages open-source models from Huggingface\
-  that are proven to perform well on Mac M1s, ensuring a good experience on common\
-  developer hardware.
+
+  Prompt enables running open-source LLMs optimized for Mac M1 machines with
+  16GB of memory. Its aim is to make LLMs accessible, eliminating the need for
+  expensive cloud infrastructure and Nvidia chips. Additionally, it leverages
+  open-source models from Huggingface that are proven to perform well on Mac
+  M1s, ensuring a good experience on common developer hardware.
+
   ## How do I use Prompt?
-  Here is how to run an\
-  example quickly:
+
+  Here is how to run an example quickly:
+
   ```
-  git clone https://github.com/opszero/prompt &&\
-  cd prompt && ./build.sh
+  git clone https://github.com/opszero/prompt
+  cd prompt
+  ./build.sh
   cd examples
   ./job-post-extract-company-name-vicuna-7b.sh
   ./job-post-extract-company-name-wizardlm-7b.sh
